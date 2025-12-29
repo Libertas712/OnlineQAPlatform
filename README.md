@@ -71,7 +71,6 @@ OnlineQAPlatform/
 │ └── createThread.jsp
 └── pom.xml # Maven 依赖配置
 
-text
 
 ## 📦 数据库设计
 
@@ -97,6 +96,8 @@ CREATE TABLE `message` (
     INDEX `idx_thread_id` (`thread_id`),
     INDEX `idx_create_time` (`create_time`)
 );
+
+
 🚀 快速开始
 环境要求
 JDK 1.8+
